@@ -5,7 +5,7 @@ defmodule Spirit.Mixfile do
     [
       app: :spirit,
       version: "0.0.1",
-      elixir: "~> 1.0.4",
+      elixir: "~> 1.0",
       description: "Elixir microframework for web development.",
       deps: deps,
       package: package
