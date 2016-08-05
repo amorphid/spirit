@@ -31,7 +31,7 @@ defmodule Spirit.Mixfile do
   defp deps do
     [
       {:cowboy, "~> 1.0"},
-      {:plug, "~> 0.13"},
+      {:plug, "~> 1.1"},
       {:poison, "~> 1.4"}
     ]
   end
