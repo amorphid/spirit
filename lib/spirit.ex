@@ -38,7 +38,7 @@ defmodule Spirit do
         conn
       end
 
-      def redirect(conn, location, opts \\ []) do
+      def redirect(conn, location, opts) do
         opts = [status: 302] |> Keyword.merge(opts)
 
         conn
